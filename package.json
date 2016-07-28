@@ -1,0 +1,30 @@
+{
+  "name": "@types/hapi",
+  "version": "1.0.0",
+  "description": "A Typescript definition for Hapi.js, with custom interfaces for plugins used by Gearworks.",
+  "main": "index.d.ts",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nozzlegear/hapi.d.ts.git"
+  },
+  "author": "Joshua Harms <joshua@nozzlegear.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nozzlegear/hapi.d.ts/issues"
+  },
+  "homepage": "https://github.com/nozzlegear/hapi.d.ts#readme",
+  "typescript": {
+    "definitions": [
+      "index.d.ts"
+    ]
+  },
+  "dependencies": {
+    "@types/boom": "0.0.28",
+    "@types/catbox": "github:nozzlegear/catbox.d.ts#918205a",
+    "@types/node": "^4.0.30"
+  }
+}
